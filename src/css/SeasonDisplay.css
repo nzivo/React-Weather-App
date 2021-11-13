@@ -1,0 +1,34 @@
+.season-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.Summer{
+    background-image: url('../img/summer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.Winter{
+    background-image: url('../img/winter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.season-display.Summer i{
+    color: gold;
+}
+
+.season-display.Winter i{
+    color: aqua;
+}
+
+.time-header{
+    font-size: 40px;
+}
